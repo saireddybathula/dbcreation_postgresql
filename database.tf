@@ -1,6 +1,6 @@
 # Create a Cloud SQL database instance
 resource "google_sql_database_instance" "postgres_instance" {
-  name         = "my-postgres-instance"
+  name         = "mypostgresql"
   database_version = "POSTGRES_14"  # Choose your desired version
   settings {
     tier = "db-f1-micro"  # Adjust tier based on your needs
